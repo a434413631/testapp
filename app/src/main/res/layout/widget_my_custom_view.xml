@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="288dp">
+
+        <ProgressBar
+                android:id="@+id/progress"
+                style="@style/my_progressbar_style_ver"
+                android:layout_width="44dp"
+                android:progress="86"
+                android:layout_height="match_parent" />
+
+        <TextView
+                android:id="@+id/progress_text"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:text="86"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <ImageView
+                android:id="@+id/progress_emotion"
+                android:layout_marginBottom="4dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/ic_smile"
+                android:layout_width="36dp"
+                android:layout_height="36dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/layout_weekend"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:background="@drawable/bg_currentday"
+            android:layout_width="36dp"
+            android:layout_height="36dp">
+
+        <TextView
+                android:id="@+id/tv_weekend"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:text="六"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyCustomView">
+        <attr name="cus_progress" format="integer"/>
+        <attr name="cus_animation_duration" format="integer"/>
+        <attr name="cus_emotion_img" format="reference"/>
+        <attr name="cus_background" format="reference"/>
+        <attr name="cus_weekend" format="string"/>
+        <attr name="cus_is_current_day" format="boolean"/>
+    </declare-styleable>
+</resources>
